@@ -1,0 +1,42 @@
+.layout{
+  margin: 10px 10px;
+  padding: 20px 20px;
+  background-color: #eee;
+}
+
+.margin-1{
+  margin: 50px 0px
+}
+
+ul.nav{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 10px 0px 50px 0px;
+    height: 50px;
+    border-bottom: 1px solid #fff
+}
+
+ul.nav li{
+  list-style: none;
+}
+
+ul.nav li a{
+  text-decoration: none;
+  font-weight: 100;
+  margin: 10px;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+h1, h2, h3{
+  font-weight: 300;
+  text-align: center;
+}
+
+.btn{
+  margin: 10px 20px;
+  padding: 5px 25px;
+  cursor: pointer;
+}
